@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cargo",
+			"command": "run",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Run",
+		},
+		{
+			"type": "cargo",
+			"command": "test",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Test"
+		},
+		{
+			"type":"cargo",
+			"command": "clippy",
+			"problemMatcher": [
+				"$rustc"
+			],
+			"label": "Lint",
+		}
+	]
+}
